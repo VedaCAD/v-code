@@ -29,11 +29,11 @@ V-Code operates as a **Stack-Based Virtual Machine utilizing Reverse Polish Nota
 - **Rings late-3, 5, and 6** act as HDSM (High-Dimensional Semantic Macros), handling non-linear physics, societal logic, and system interrupts to encapsulate complex states into single-byte operations.
 
 ### IV. Open Specification & The Origin Story
-V-Code wasn't funded by a massive corporate think tank. It was born out of 100+ rounds of relentless adversarial prompting between myself and an AI, trying to solve a single, maddening problem I encountered while building my startup, **VedaCAD**: *How do we stop LLMs from hallucinating spatial geometry and bleeding tokens?*
+V-Code wasn't funded by a massive corporate think tank. It was born out of 100+ rounds of relentless adversarial prompting between myself and an AI, trying to solve a single, maddening problem encountered during the development of the **VedaCAD** project: *How do we stop LLMs from hallucinating spatial geometry and bleeding tokens?*
 
-While VedaCAD's core commercial focus remains building the enterprise deployment platform and package manager for CAD environments, we believe that the foundational protocols governing AI-to-CAD spatial translation must remain open and un-siloed. 
+While VedaCAD's primary engineering focus is on CAD environment deployment and package management, we believe that the foundational protocols governing AI-to-CAD spatial translation must remain open and un-siloed. 
 
-Therefore, we are releasing the V-Code ℵ₀ specification to the public domain under the VedaCAD umbrella. Below is the **V1.0-alpha** draft of the V-Code Base Matrix, published to foster research into deterministic LLM-to-CAD pipelines. We invite the global open-source community, compiler engineers, and computational geometry researchers to collaborate on building native, high-performance interpreters (in Rust, Python, C++, or AutoLISP) capable of parsing these morphological runes across any 3D environment.
+Therefore, we are releasing the V-Code ℵ₀ specification to the public domain under the VedaCAD project umbrella. Below is the **V1.0-alpha** draft of the V-Code Base Matrix, published to foster research into deterministic LLM-to-CAD pipelines. We invite the global open-source community, compiler engineers, and computational geometry researchers to collaborate on building native, high-performance interpreters (in Rust, Python, C++, or AutoLISP) capable of parsing these morphological runes across any 3D environment.
 
 **Attribution:** Any derivative parsers, LLM fine-tunes, or academic research utilizing this Instruction Set Architecture should simply maintain attribution to **V-Code (ℵ₀) by Vico @ VedaCAD**.
 
