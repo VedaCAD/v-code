@@ -16,7 +16,7 @@ As the Architecture, Engineering, and Construction (AEC) industry integrates Lar
 Demanding an LLM to generate a massive, procedural script to manipulate complex 3D manifolds exposes the system to inevitable spatial hallucinations, missing dependencies, and syntax fragmentation. Current models lack the deterministic spatial reasoning required for industrial-grade CAD environments.
 
 ### II. The V-Code Paradigm
-To resolve this, I initiated an experimental R&D project at **VedaCAD** to engineer a theoretical "Universal Morphological Matrix"—codename **V-Code**.
+To resolve this, I initiated an experimental R&D project at [**VedaCAD**](https://www.vedacad.com) to engineer a theoretical "Universal Morphological Matrix"—codename **V-Code**.
 
 The architectural premise is pragmatic and absolute: Strip away all human linguistic redundancy. Compress every conceivable CAD operation, physical state, and geometric transformation into a **256-Token Morphological Root System (1 Byte per instruction)**. 
 
@@ -29,13 +29,19 @@ V-Code operates as a **Stack-Based Virtual Machine utilizing Reverse Polish Nota
 - **Rings late-3, 5, and 6** act as HDSM (High-Dimensional Semantic Macros), handling non-linear physics, societal logic, and system interrupts to encapsulate complex states into single-byte operations.
 
 ### IV. Open Specification & The Origin Story
-V-Code wasn't funded by a massive corporate think tank. It was born out of 100+ rounds of relentless adversarial prompting between myself and an AI, trying to solve a single, maddening problem encountered during the development of the **VedaCAD** project: *How do we stop LLMs from hallucinating spatial geometry and bleeding tokens?*
+V-Code wasn't funded by a massive corporate think tank. It was born out of 100+ rounds of relentless adversarial prompting between myself and an AI, trying to solve a single, maddening problem encountered during the development of the [**VedaCAD**](https://www.vedacad.com) project: *How do we stop LLMs from hallucinating spatial geometry and bleeding tokens?*
 
 While VedaCAD's primary engineering focus is on CAD environment deployment and package management, we believe that the foundational protocols governing AI-to-CAD spatial translation must remain open and un-siloed. 
 
 Therefore, we are releasing the V-Code ℵ₀ specification to the public domain under the VedaCAD project umbrella. Below is the **V1.0-alpha** draft of the V-Code Base Matrix, published to foster research into deterministic LLM-to-CAD pipelines. We invite the global open-source community, compiler engineers, and computational geometry researchers to collaborate on building native, high-performance interpreters (in Rust, Python, C++, or AutoLISP) capable of parsing these morphological runes across any 3D environment.
 
 **Attribution:** Any derivative parsers, LLM fine-tunes, or academic research utilizing this Instruction Set Architecture should simply maintain attribution to **V-Code (ℵ₀) by Vico @ VedaCAD**.
+
+### V. Try the Interactive Sandbox
+To demonstrate the dimensional collapse from V-Code payload to physical geometry without requiring AI API keys, I've built a native AutoLISP simulator.
+
+You can run this sandbox directly inside AutoCAD (2007+). 
+Simply load the `.lsp` file from this repository, or if you use the VedaCAD client, you can deploy the sandbox instantly via **VCID: `PLG96B`**.
 
 ---
 
